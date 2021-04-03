@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+body {
+    height: 100%;
+}
+
+.home {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+.section1 {
+    background-image: url("https://www.apexweb.co.uk/docs/headers/e-commerce-websites.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 410px;
+    width: 100%;
+    background-position-y: -30px;
+    margin-top: 10px;
+}
+
+.section1 .quote {
+    width: 40%;
+    padding: 50px;
+    font-size: 34px;
+    line-height: 60px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    padding-top: 60px;
+    height: max-content;
+}
+
+.section2 {
+    height: 360px;
+
+    display: flex;
+    margin-top: 160px;
+    background-color: #f78383;
+    color: white;
+}
+
+.section2 #image {
+    width: 40%;
+    height: 100%;
+    padding-left: 20px;
+    margin-top: -100px;
+}
+
+.section2 .content {
+    width: 50%;
+    height: 30%;
+    padding: 50px;
+    margin-left: 60px;
+}
+
+.section3 {
+    height: 360px;
+
+    display: flex;
+    margin-top: 160px;
+    margin-top: 50px;
+}
+
+.section3 #image {
+    width: 40%;
+    height: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.section3 .content {
+    width: 50%;
+    height: 30%;
+    padding: 50px;
+
+    margin-left: 60px;
+}
+
+.section4 {
+    height: 360px;
+    display: flex;
+    margin-top: 160px;
+    margin-bottom: 20px;
+    background-color: #47a9d6;
+}
+
+.section4 #image {
+    width: 40%;
+    height: 100%;
+    padding-left: 20px;
+    margin-top: -100px;
+}
+
+.section4 .content {
+    width: 50%;
+    height: 30%;
+    padding: 50px;
+    margin-left: 60px;
+    color: white;
+}
+
+@media (max-width: 1280px) {
+    .section1 .quote {
+        font-size: 20px;
+        width: 60%;
+    }
+}

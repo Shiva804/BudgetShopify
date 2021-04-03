@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+#pic {
+    width: 45px;
+    padding: 0px 0px;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #e2703a;
+    height: 100px;
+    justify-content: space-between;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.logo {
+    display: flex;
+    width: 260px;
+    justify-content: space-around;
+    height: 30px;
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.pic {
+    width: 30px;
+    height: 30px;
+    margin-top: 7px;
+    margin-left: 6px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg)
+        brightness(102%) contrast(102%);
+}
+
+#appname {
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.login-btn {
+    width: 100px;
+    height: 40px;
+    margin-right: 50px;
+    margin-top: 35px;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+    border-color: chocolate;
+    border-radius: 5px;
+    background-color: rgb(223, 197, 53);
+    color: black;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    color: white;
+}
+
+#logout {
+    width: 100px;
+    height: 40px;
+    margin-right: 50px;
+    margin-top: 35px;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+    border-color: chocolate;
+    border-radius: 5px;
+    background-color: rgb(223, 197, 53);
+    color: black;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+#logout:hover {
+    color: white;
+}
+
+#vi,
+#vs {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+}
+
+#vi:hover,
+#vs:hover {
+    color: black;
+}
+
+#ic {
+    height: 30px;
+    padding-right: 8px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg)
+        brightness(102%) contrast(102%);
+}
+
+#cart {
+    height: 35px;
+    margin-top: 35px;
+    padding-right: 30px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg)
+        brightness(102%) contrast(102%);
+    cursor: pointer;
+}
+
+#logs {
+    display: flex;
+    flex-direction: row;
+}
+
+#circle {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(196, 20, 20);
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 20px;
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+#cart-dot {
+    display: flex;
+}
+
+#vs-vi {
+    margin-top: 30px;
+}

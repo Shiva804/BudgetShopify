@@ -1,0 +1,58 @@
+#loginbox {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.login-area {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 50px;
+    margin-bottom: 90px;
+}
+
+#password,
+#email {
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 1px black solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#password:focus,
+#email:focus {
+    border-color: rgb(44, 158, 252);
+    transition: 0.3s ease;
+}
+
+input:focus::placeholder {
+    color: rgb(21, 125, 211);
+    transition: 0.3s ease;
+}
+
+#submit {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(87, 103, 248);
+    height: 30px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    margin-top: 40px;
+}
+
+#c {
+    text-decoration: none;
+    color: rgb(179 9 1);
+}

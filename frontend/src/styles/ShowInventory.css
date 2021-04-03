@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+.inventory {
+    text-align: center;
+    width: 100%;
+}
+
+.add {
+    padding-bottom: 100px;
+    font-family: "Poppins", sans-serif;
+}
+
+#fh h1 {
+    font-family: "Poppins", sans-serif;
+    color: rgb(36, 35, 35);
+}
+
+.add h3 {
+    padding-top: 40px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(36, 35, 35);
+}
+
+.add input {
+    margin: 80px 80px 20px 20px;
+    width: 300px;
+    height: 20px;
+    border: none;
+    border-bottom: 1px black solid;
+    outline: none;
+}
+
+.add input:focus {
+    border-color: rgb(44, 158, 252);
+    border-width: 2px;
+    transition: 0.3s ease;
+}
+
+.add input:focus::placeholder {
+    color: rgb(44, 158, 252);
+    transition: 0.3s ease;
+}
+
+#sb1 {
+    width: 15%;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(87, 103, 248);
+    height: 40px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 40px;
+}
+
+#sum {
+    font-family: "Poppins", sans-serif;
+    color: rgb(36, 35, 35);
+}
+
+.products-side {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 100px;
+    padding: 10px;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    width: max-content;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+hr {
+    width: 100%;
+}
+
+#x {
+    position: static;
+    margin-top: -10px;
+    padding: 5px;
+    cursor: pointer;
+    color: rgb(218, 6, 6);
+}
+
+#price {
+    margin-left: 70px;
+}

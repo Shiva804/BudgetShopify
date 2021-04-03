@@ -1,0 +1,49 @@
+.mainc {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.cs-box {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 50px;
+    margin-bottom: 90px;
+}
+
+#name,
+#address,
+#category {
+    width: 70%;
+    height: 30px;
+    border-width: 1px;
+    border-radius: 5px;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#name:focus,
+#address:focus,
+#category:focus {
+    border-color: rgb(44, 158, 252);
+    border-width: 2px;
+    transition: 0.3s ease;
+}
+
+#create {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(87, 103, 248);
+    height: 30px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+}

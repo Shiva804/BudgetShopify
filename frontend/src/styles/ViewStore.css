@@ -1,0 +1,64 @@
+.image-carousel {
+    height: 580px;
+}
+
+.image-carousel img {
+    width: 100%;
+    height: 100%;
+}
+
+.sect2 {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.store-products {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 32px;
+    padding: 10px;
+    text-align: center;
+}
+
+.conts {
+    margin: 10px;
+}
+
+#atc {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 50px;
+}
+
+#atc-btn {
+    height: 35px;
+    margin-top: 15px;
+    background-color: rgb(228, 122, 35);
+    color: white;
+    outline: none;
+    border-color: rgb(247, 105, 39);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#atc-btn:hover {
+    background-color: rgb(184, 93, 18);
+}
+
+#p-img {
+    margin-bottom: 40px;
+    height: 95%;
+    width: 95%;
+}
+
+#imgss {
+    border: 1px solid black;
+    height: 250px;
+    padding: 15px;
+    overflow: hidden;
+}

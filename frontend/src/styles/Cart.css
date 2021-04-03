@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+#no {
+    height: 39vh;
+    font-family: "Poppins", sans-serif;
+    padding: 100px;
+    font-size: 20px;
+}
+.cart {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(250, 239, 239);
+    padding: 50px;
+}
+
+.cart-item {
+    width: 700px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 30px;
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+}
+
+#quant {
+    width: 25px;
+    background-color: burlywood;
+    border: 1px solid black;
+}
+
+#quan,
+#pr {
+    display: flex;
+}
+
+#cons {
+    margin: 30px;
+    margin-left: 150px;
+}
+
+#rfc {
+    background-color: rgb(240, 82, 82);
+    height: 30px;
+    color: white;
+    outline: none;
+    border-color: brown;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#rfc:hover {
+    background-color: rgb(192, 49, 49);
+}
+
+#rfc-div {
+    position: static;
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+#po {
+    background-color: rgb(22, 212, 79);
+    width: 150px;
+    height: 35px;
+    color: white;
+    outline: none;
+    border-color: rgb(2, 105, 24);
+    border-radius: 7px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+
+#po:hover {
+    background-color: rgb(50, 243, 108);
+}
