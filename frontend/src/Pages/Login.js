@@ -27,7 +27,7 @@ export class Login extends Component {
                 });
                 let mail = resp.data.user.email;
                 let role = resp.data.user.role;
-                let store = resp.data.store;
+                let store = resp.data.user.store;
                 let cart = resp.data.user.cart;
 
                 console.log(resp);
@@ -119,7 +119,11 @@ export class Login extends Component {
                         <h3 id="last">
                             Don't have an account? <br />
                             <Link
-                                to={`/${this.props.match.params.storeid}/register`}
+                                to={
+                                    this.props.isAdminRoute
+                                        ? "/register"
+                                        : `/${this.props.match.params.storeid}/register`
+                                }
                                 id="c"
                             >
                                 Register !

@@ -47,6 +47,8 @@ export class App extends Component {
                 cart: cart,
             },
             () => {
+                console.log("here?!");
+
                 callback(this.state.store);
             }
         );

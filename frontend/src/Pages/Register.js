@@ -100,7 +100,7 @@ export class Register extends Component {
                 let role = resp.data.user.role;
                 let store = resp.data.store;
                 let cart = resp.data.user.cart;
-
+                console.log(resp);
                 this.setState({ errors: null }, () => {
                     this.props.loginSuccessHandler(
                         mail,
@@ -183,7 +183,11 @@ export class Register extends Component {
                         <h3 id="last">
                             Already have an account?
                             <Link
-                                to={`/${this.props.match.params.storeid}/login`}
+                                to={
+                                    this.props.isAdminRoute
+                                        ? `/login`
+                                        : `/${this.props.match.params.storeid}/login`
+                                }
                                 id="c"
                             >
                                 <div>Login !</div>
