@@ -18,20 +18,26 @@ export class Home extends Component {
                         id="image"
                     />
                     <div className="content">
-                        <h3>Sell everywhere </h3>
+                        <h3>Why Budget Shopify? </h3>
                         <br />
-                        Use one platform to sell products to anyone, anywhere—in
-                        person with Point of Sale and online through your
-                        website, social media, and online marketplaces.
+                        Budget Shopify is a platform for users to independently
+                        manage online stores. It does not undertake the delivery
+                        and selling functions.This can help to open an
+                        e-commerce platform for your business.By registering an
+                        account we can have ready-made shop templates, or we can
+                        customize our own ideal shop. With ready-made templates,
+                        you can build an independent e-commerce website in a
+                        jiffy to reach all buyers in every corner of the world.
                     </div>
                 </div>
                 <div className="section3">
                     <div className="content">
-                        <h3>Market your business</h3>
+                        <h3>Sell your business</h3>
                         <br />
-                        Take the guesswork out of marketing with built-in tools
-                        that help you create, execute, and analyze digital
-                        marketing campaigns.
+                        Create a business, whether you’ve got a fresh idea or
+                        are looking for a new way to make money. Turn your
+                        retail store into an online store and keep serving
+                        customers without missing a beat.
                     </div>
                     <img
                         src="https://mk0buildfireqbf86ll2.kinstacdn.com/wp-content/uploads/2017/04/promote-your-business.jpg"
@@ -45,11 +51,13 @@ export class Home extends Component {
                         id="image"
                     />
                     <div className="content">
-                        <h3>Manage everything </h3>
+                        <h3>What does budget shopify do? </h3>
                         <br />
-                        Gain the insights you need to grow—use a single
-                        dashboard to manage orders, shipping, and payments
-                        anywhere you go.
+                        We are proposing a Platform as a service(PaaS) where
+                        small companies can manage their online store without
+                        any hassles. We aim to provide a platform to manage
+                        inventory, analyse sales figures and provide an all in
+                        one solution for all your business needs.
                     </div>
                 </div>
             </div>
